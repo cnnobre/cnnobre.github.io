@@ -5,9 +5,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Cleilson Nobre</title>
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap" rel="stylesheet">
+  <!-- Dev Icon Fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <!-- CSS do Projeto-->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Teste</h1>
+  <main id="container">
+    <aside id="bio-container">
+      <h2>Cleilson Nobre</h2>
+      <img id="bio-image" src="img/CNN PERFIL.png" alt="Cleilson Nobre">
+      <p>Olá, meu nome é Cleilson Nobre e sou <span class="highlight">Desenvolvedor</span>.</p>
+      <p id="welcome-text">Seja bem-vindo!</p>
+      <ul id="social-container">
+        <li><a href="https://www.facebook.com/IceNobre/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/cleilson-nobre-a17b06187/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/cnnobre/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      </ul>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon><a href="mailto:cleilson_nobre@hotmail.com">cleilson_nobre@hotmail.com</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Cleilson Nobre</h1>
+      <p id="title"><span class="highlight">Desenvolvedor</span></p>
+      <p id="description">Descrição a escrever.</p>
+      <a href="https://github.com/cnnobre" target="_blank" id="btn-project"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a>
+      <h2 id="skills-section-title">Minhas Skills</h2>
+      <p id="description">Conheça as tecnologias que domino:</p>
+      <div id="skills-container">
+        <div id="skills-box">
+          <p id="skills-title">Front-end</p>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+        </div>
+        <div id="skills-box">
+          <p id="skills-title">Back-end</p>
+          <i class="devicon-php-plain colored"></i>
+        </div>
+        <div id="skills-box">
+          <p id="skills-title">Databases</p>
+          <i class="devicon-mysql-plain colored"></i>
+        </div>
+        <div id="skills-box">
+          <p id="skills-title">Frameworks</p>
+          <i class="devicon-drupal-plain colored"></i>
+          <i class="devicon-wordpress-plain"></i>
+        </div>
+        <div id="skills-box">
+          <p id="skills-title">Tools</p>
+          <i class="devicon-linux-plain"></i>
+          <i class="devicon-composer-line"></i>
+          <i class="devicon-git-plain colored"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

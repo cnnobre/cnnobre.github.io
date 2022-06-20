@@ -185,6 +185,10 @@
   margin-right: 10px;
 }
 
+.devicon-composer-line {
+  color: var(--main-color);
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 

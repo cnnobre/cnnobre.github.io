@@ -189,6 +189,10 @@
   color: var(--main-color);
 }
 
+.devicon-linux-plain {
+  color: var(--main-color);
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 
